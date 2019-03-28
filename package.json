@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/mragarg/hello-http/issues"
   },
-  "homepage": "https://github.com/mragarg/hello-http#readme"
+  "homepage": "https://github.com/mragarg/hello-http#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
